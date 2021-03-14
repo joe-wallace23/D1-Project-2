@@ -1,0 +1,765 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f8f9fa;
+
+}
+
+/* Start Navrbar*/
+.navbar{
+    background-color: white;
+    box-shadow: 1px 14px 5px -3px rgba(0,0,0,0.08);
+    padding: 20px 1rem;
+}
+.navbar-brand img{
+    width: 70px;
+}
+.navbar-nav .nav-link{
+    color: black !important;
+    font-size: 14px;
+    font-weight: 700 !important;
+    letter-spacing: .1em !important;
+}
+.navbar-nav .nav-link:hover{
+   color: #036635 !important;
+}
+.navbar-nav .vb{
+    margin-right: 20px;
+}
+.navbar-nav .fa-map-marker{
+    font-size: 25px;
+    margin-right: 5px;
+}
+.navbar-toggler{
+    border: none !important;
+}
+.toggler-btn{
+    border: 2px solid black;
+    padding: 5px;
+    transition: all 2s ease;
+}
+.bar{
+    width: 30px;
+    height: 3px;
+    margin: 5px;
+    background: black;
+    transition: all 0.5s ease;
+}
+.change .bar1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.change .bar2{
+    opacity: 0;
+}
+.change .bar3{
+    transform: rotate(45deg) translate(-5px, -8px);
+}
+.mainButton .cga{
+    background-color: transparent !important;
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 0px 10px;
+    display: inline-block;
+    font-weight: 400;
+        user-select: none;
+        text-align: center;
+        vertical-align: middle;
+        padding: .375rem 20px;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-decoration: none;
+   
+}
+.mainButton .cost{
+    color: white;
+    background-color: black  !important;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 0px 10px;
+    display: inline-block;
+    font-weight: 400;
+        user-select: none;
+        text-align: center;
+        vertical-align: middle;
+        padding: .375rem 20px;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-decoration: none;
+
+}
+/*end  Start Navrbar*/
+
+/*home area*/
+/* committed section*/
+.committed{
+    background-color: #d4e9e2;
+    height: 110px;
+    margin-top: 105px;
+    margin-bottom: 30px;
+}
+.committed  .content p{
+    padding: 40px 0px;
+    color: #1e3932;
+    font-size: 18px;
+    line-height: 1.75;
+}
+.committed  .content  a{
+ 
+    color: #1e3932;
+    font-size: 18px;
+    line-height: 1.75;
+    text-decoration: none;
+}
+.committed  .content  a{
+  border-bottom: 1px solid #1e3932 ;
+}
+.committed  .content  a:hover{
+    border-bottom: none;
+  }
+
+/* end committed section*/
+
+/* summer section */
+.summer{
+    background-color: #d4e9e2;
+    margin-bottom: 30px;
+}
+
+.summer .content{
+    text-align: center;
+    align-items: center;
+}
+.summer .content h1{
+    font-size: 24px;
+    color: #1e3932;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -.01em;
+    padding-top: 100px;
+
+}
+.summer .content .para p{
+    font-size: 18px;
+    line-height: 1.75;
+    color: #1e3932;
+    letter-spacing: -.01em;
+}
+.summer .content .summerButton .play{
+ background-color: transparent;
+ border: 1px solid #1e3932;
+ padding: 5px 15px;
+ color: #1e3932;
+ border-radius: 30px;
+ text-decoration: none;
+ position: relative;
+ top: -5px;
+}
+.summer .content .images{
+    padding: 0px;
+}
+.summer .content .images img{
+    width: 100%;
+    height: 400px;
+}
+/* end summer section*/
+/* uber section*/
+.uber .content .images img{
+    width: 100%;
+    height: 500px;
+}
+.uber .content .title h1{
+    color: black;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-top: 10px;
+  
+}
+.uber .content .para p{
+    font-size: 18px;
+    line-height: 1.75;
+    color: #000;
+
+}
+.uber .col-lg-6{
+    margin-bottom: 20px;
+}
+.uber .content .summerButton .order{
+    background-color: transparent;
+    border: 1px solid #1e3932;
+    padding: 5px 15px;
+    color: #1e3932;
+    border-radius: 30px;
+    text-decoration: none;
+    position: relative;
+    top: -5px;
+}
+/* end uber section*/
+/* necessary section*/
+.necessary .container{
+    max-width: 800px;
+}
+.necessary{
+    padding: 50px 0px;
+}
+.necessary .content .para p{
+    font-size: 13px;
+    line-height: 1.8;
+    color: black;
+    font-weight: 400;
+    padding-bottom: 80px;
+}
+/* end necessary section*/
+/* end home area*/
+
+/*menu area*/
+.drinks{
+    margin-top: 180px;
+}
+.drinks .title h4{
+    font-weight: 600 !important;
+  
+    color: black;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.drinks .content .nav .nav-link{
+    color: rgba(0,0,0,.56);
+    font-size: 15px;
+}
+.drinks .mainTitle h1{
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.drinks .tc h2{
+    font-size: 25px;
+    line-height: 1.263;
+    padding-bottom: 1.6rem;
+    font-weight: 700;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+}
+.drinks .images{
+  margin-top: 20px;
+}
+.drinks .images img{
+    width: 100%;
+    height: 300px;
+    border-radius: 50%;
+
+}
+.drinks .para p{
+ text-align: center;
+    padding: 10px 0px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.drinks .col-lg-6{
+    margin-bottom: 20px;
+}
+/* end menu area*/
+
+/* rewards area*/
+
+/* Start programs section*/
+.programs{
+    padding-top: 180px;
+}
+.programs .container{
+    width: 900px;
+}
+.programs .col-lg-12{
+ 
+}
+.programs .content .title h2{
+    color: #33433d;
+    font-size: 20px;
+    line-height: 1.385;
+    font-weight: 400;
+    font-size: 35px;
+    padding-bottom: 5px;
+}
+.programs .content .para p{
+    color: #33433d;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.5;
+    padding-bottom: 10px;
+
+}
+.programs .content .para a{
+    color: #036635;
+    text-decoration: none;
+    border-bottom: 1px solid #036635;
+
+}
+.programs .content .para a:hover{
+    border-bottom: none !important;
+}
+.programs hr{
+    border-style: none;
+    border-top: 1px solid gray;
+}
+
+
+.programs .content .images img{
+    width: 100%;
+    height: 100vh;
+}
+.programs{
+    background-color: white;
+}
+/* end programs section*/
+
+/* feeling section*/
+.feeling .container{
+    width: 900px;
+}
+.feeling .mainTitle h2{
+ color: #33433d;
+ font-size: 30px;
+}
+.feeling .smallPara p{
+color: #33433d;
+font-size: 17px;
+padding-bottom: 40px;
+}
+.feeling .content .icons .fa{
+    font-size: 70px;
+    color: #036635;
+    height: 150px;
+}
+.feeling .col-lg-4{
+    margin-bottom: 20px;
+}
+.feeling .content .para p{
+    color: #33433d;
+    font-size: 15px;
+}
+.feeling .content .images img{
+    width: 100%;
+    height: 250px;
+}
+.feeling .joinButton .join{
+    color: #036635;
+    border: 1px solid #036635;
+    padding: 7px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.feeling .title .fa{
+    margin-right: 20px;
+}
+.feeling .title h3{
+    color: #33433d;
+    font-size: 25px;
+}
+.feeling .para p{
+    font-size: 15px;
+    margin-left: 45px;
+    color: #33433d;
+    padding-bottom: 10px;
+}
+.feeling .divider{
+    width: 100%;
+    background-color: lightgray;
+    height: 2px;
+}
+.feeling .col-lg-12{
+    margin-bottom: 30px;
+}
+.feeling .para a{
+    color: #036635;
+    text-decoration: none;
+    border-bottom: 1px solid #036635;
+}
+.feeling .para a:hover{
+    border-bottom: none !important;
+   
+}
+.feeling {
+    background-color: white;
+   padding-top: 50px;
+}
+
+/* end feeling section*/
+/* start customize section*/
+
+.customize .container{
+    width: 900px;
+}
+.customize{
+    margin-bottom: 20px;
+}
+.customize .col-lg-6{
+    margin-bottom: 10px;
+}
+.customize .content .title h3{
+ color: #33433d;
+ font-size: 30px;
+ margin-bottom: 10px;
+}
+.customize .content .para p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #33433d;
+}
+.customize .content .images img{
+    width: 100%;
+}
+
+/* End cusomize section*/
+
+/* start account section*/
+.account .container{
+    width: 900px;
+}
+.account{
+   padding: 50px 0px 20px;
+}
+.account .col-lg-6{
+    margin-bottom: 20px;
+}
+.account .content .images img{
+    width: 100%;
+}
+.account .content .title h3{
+    color: #33433d;
+    font-size: 30px;
+}
+.account .content .para p{
+    font-size: 15px;
+    color: #33433d;
+}
+.account .content .accountButton a{
+    margin-right: 5px;
+    padding: 7px 20px;
+    background-color: #036635;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.account .content .accountButton{
+ position: relative;
+ top: 10px;
+}
+/* end account section*/
+
+/* phoneBanner and RewardStarBuck  section*/
+.phoneBanner{
+    background-image: url(/images/starbucks\ download\ the\ app\ for\ the\ best\ e.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.rewardStarBuck {
+    background-image: url(/images/starbuck\ black\ customer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+/* end phoneBanner and RewardStarBuck section*/
+/* downlaods   section*/
+.downloads .container{
+    width: 900px;
+}
+.downloads{
+    background-color: white;
+    padding: 40px 0px 50px;
+}
+.downloads .content .title h3{
+    font-size: 28px;
+    color: #33433d;
+}
+.downloads .content .para p{
+    color: #33433d;
+    font-weight: 400;
+    font-size: 16px;
+}
+.downloads .content .para a{
+    color: #036635;
+    text-decoration: none;
+    border-bottom: 1px solid #036635;
+}
+.downloads .content .para a:hover{
+   border-bottom: none !important;
+}
+.downloads .content .downloadsButton a{
+    background-color: transparent;
+    border: 1px solid #036635;
+    border-radius: 20px;
+    padding: 5px 20px;
+    color: #036635;
+    text-decoration: none;
+
+}
+/* downloads section*/
+/* earning section*/
+.earning .container{
+    width: 900px;
+}
+.earning{
+    padding: 50px 0px 40px;
+}
+.earning .col-lg-12{
+    margin-bottom: 30px;
+}
+.earning .content .title h2{
+    text-transform: uppercase;
+    letter-spacing: .1em !important;
+    font-size: 15px;
+     margin-bottom: 10px;
+}
+.earning .content .para p{
+    color: #33433d;
+    font-size: 14px;
+}
+.earning .content .para a{
+    color:#036635;
+    text-decoration: none;
+    border-bottom: 1px solid #036635;
+}
+.earning .content .para a:hover{
+    border-bottom: none !important;
+}
+/* end earning section
+
+/* end rewards area*/
+
+/*Start contact us section*/
+
+.us{
+    margin-top: 150px;
+}
+.us .mainTitle h1{
+    padding: 0px 0px 20px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.66666rem;
+    color: #33433d;
+}
+.us .col-lg-7{
+    margin-bottom: 20px;
+}
+.us .para .p{
+    font-size: 15px;
+    color: #33433d;
+    margin: 0px 0px 20px;
+
+}
+.us .content .para a{
+    color: #036635;
+    text-decoration: none;
+}
+.us .content .para a:hover{
+    color: white;
+    background-color: #036635;
+}
+.us .content .cardList ul {
+    list-style: none;
+}
+.us .content .cardList ul li p {
+    margin-top: 2px;
+    margin-bottom: 40px;
+    font-size: 15px;
+}
+.us .content .cardList ul li a{
+    font-size: 17px;
+    color: #036635;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.us .content .cardList ul li a:hover{
+    color: white;
+    background-color: #036635;
+}
+.us .content  .servicesTitle h2 {
+    font-size: 28px;
+   
+}
+.us .content  .servicesTitle h2 a {
+   text-decoration: none;
+   color: #036635;
+}
+.us .content  .servicesTitle h2 a:hover {
+  color: white;
+  background-color: #036635;
+}
+/* end Contact us section*/
+
+/* footer area */
+
+
+.full .title h3{
+    font-size: 21px;
+    line-height: 1.411;
+    font-weight: 400;
+    margin-bottom: 1.2rem !important;
+    color: black;
+}
+.full .menu-list ul{
+    list-style: none;
+}
+.full .menu-list ul li{
+    padding: 10px;
+}
+.full .menu-list ul li a{
+    font-size: 16px;
+ font-weight: 400;
+ line-height: 1.5;
+ color: rgba(0,0,0,.56);
+ text-decoration: none;
+}
+.full .menu-list ul li a:hover{
+color: black;
+}
+.full .social-icons ul{
+    list-style: none;
+}
+.full .social-icons ul li{
+    display: inline-block;
+   margin-right: 10px;
+}
+.full .social-icons ul li a{
+    font-size: 30px;
+    color: black;
+}
+.full .policy-list ul{
+    list-style: none;
+}
+.full .policy-list ul li{
+    display: inline-block;
+    padding-right: 10px;
+}
+.full .policy-list ul li a{
+    color: black;
+    font-size: 18px;
+}
+.full .paraCopy p{
+    color: rgba(0,0,0,.56);
+    font-size: 14px;
+}
+.full {
+    display: block;
+}
+.full{
+    position: relative;
+    bottom: 0;
+}
+.media{
+    position: relative;
+    bottom: 0;
+}
+.media .card .card-header{
+  background-color: #f8f9fa;
+}
+.media .card  .card-header .btn-link {
+    font-size: 21px !important;
+    line-height: 1.411;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+  }
+  .media .card .card-header .fa-angle-down{
+      float: right;
+      font-size: 30px;
+  }
+  .accordion > .card:not(:last-of-type) {
+    border: none !important;
+}
+.accordion > .card:not(:first-of-type) {
+    border: none !important;
+}
+.media .card .card-body .menu-list ul{
+    list-style: none;
+}
+.media .card .card-body .menu-list ul li{
+  padding: 10px;
+}
+.media .card .card-body .menu-list ul li a{
+    color: rgba(0,0,0,.56) ;
+    text-decoration: none;
+  }
+  .media .card .card-body .menu-list ul li a:hover{
+    color: black ;
+  
+  }
+  .media .card .card-body{
+      background-color: #f8f9fa;
+  }
+  .media{
+      display: none;
+  }
+/* end footer area*/
+
+@media(max-width:990px){
+    .committed{
+        background-color: #d4e9e2;
+        height: 150px;
+       
+    } 
+    .summer .content h1{
+        font-size: 24px;
+        color: #1e3932;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: -.01em;
+        padding-top: 50px;
+    
+    }
+    .summer .content .summerButton .play {
+        background-color: transparent;
+        border: 1px solid #1e3932;
+        padding: 5px 15px;
+        color: #1e3932;
+        border-radius: 30px;
+        text-decoration: none;
+       
+        margin-top: -5px;
+        position: relative;
+        top: -10px;
+    }
+    .uber .content .images img{
+        width: 100%;
+        height: 300px;
+    }
+    .full {
+        display: none;
+    }
+    .media{
+        display: block;
+    }
+    .summer .content .images img {
+        width: 100%;
+        height: 300px;
+    }
+   
+    .feeling .container{
+        width: 400px;
+    }
+    .programs .container{
+        width: 400px;
+    }
+    .customize .container{
+        width: 400px;
+    }
+    .account .container{
+        width: 400px;
+    }
+    .downloads .container{
+        width: 400px;
+    }
+    .earning .container{
+        width: 400px;
+    }
+  
+}
